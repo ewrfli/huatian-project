@@ -1,0 +1,690 @@
+
+> huatian-components@0.0.1 dev D:\dev\huatian\project\packages\huatian-components
+> vite
+
+Pre-bundling dependencies:
+  vue
+  vue-router
+(this will be run only when your dependencies or config have changed)
+
+  vite v2.6.14 dev server running at:
+
+  > Local: http://localhost:3001/
+  > Network: use `--host` to expose
+
+  ready in 662ms.
+
+上午12:22:55 [vite] page reload src/components/Tabs.tsx
+上午12:23:01 [vite] page reload src/components/tabs/Tabs.tsx
+上午12:23:01 [vite] page reload src/components/Tabs.tsx
+上午12:23:18 [vite] page reload src/components/tabs/TabMenu.tsx
+上午1:05:57 [vite] page reload src/main.ts
+上午1:06:56 [vite] page reload src/components/tabs/index.tsx
+上午1:07:02 [vite] page reload src/components/tabs/TabMenu.tsx
+上午1:14:31 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:14:34 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:14:44 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:14:45 [vite] Internal server error: unknown: Unexpected token (48:0)
+
+  46 |   activeIndex : number,
+  47 |   onActiveIndexChanged : 
+> 48 | }) => {
+     | ^
+  49 |
+  50 |   return (
+  51 |     <div class={classes.menu}>{tabs.map((tab, i) => {
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  49 |  
+  50 |    return (
+  51 |      <div class={classes.menu}>{tabs.map((tab, i) => {
+     |                             ^
+  52 |        return (
+  53 |          <div class={classes["menu-item"]} onClick={() => {
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.tsParseNonArrayType (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8470:16)
+      at Object.tsParseArrayTypeOrHigher (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8474:21)
+      at Object.tsParseTypeOperatorOrHigher (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8530:114)
+      at Object.tsParseUnionOrIntersectionType (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8539:18)
+      at Object.tsParseIntersectionTypeOrHigher (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8551:17)
+      at Object.tsParseUnionOrIntersectionType (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8539:18)
+上午1:14:50 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:14:55 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:15:02 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:15:05 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:15:12 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:15:12 [vite] page reload src/components/tabs/Tabs.tsx (x6)
+上午1:15:18 [vite] page reload src/components/tabs/Tabs.tsx (x7)
+上午1:15:19 [vite] page reload src/components/tabs/Tabs.tsx (x8)
+上午1:15:19 [vite] Internal server error: unknown: Unexpected token (54:35)
+
+  52 |       return (
+  53 |         <div class={classes["menu-item"]} onClick={() => {
+> 54 |           onActiveIndexChanged && () onActiveIndexChanged(i)
+     |                                    ^
+  55 |         }}>
+  56 |           {tab.render({ isActive: activeIndex === i })}
+  57 |         </div>
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  54 |            onActiveIndexChanged && () onActiveIndexChanged(i)
+  55 |          }}>
+  56 |            {tab.render({ isActive: activeIndex === i })}
+     |                 ^
+  57 |          </div>
+  58 |        )
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.parseParenAndDistinguishExpression (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:12315:12)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11891:23)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7477:20)
+      at Object.parseExprSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11584:23)
+      at Object.parseUpdate (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11564:21)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11539:23)
+上午1:15:25 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:15:53 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:15:53 [vite] Internal server error: unknown: Unexpected token (35:35)
+
+  33 |           {vNodes}
+  34 |           <TabMenu
+> 35 |             onActiveIndexChanged={()}
+     |                                    ^
+  36 |             tabs={tabs}
+  37 |             activeIndex={activeIndex.value}
+  38 |           />
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  35 |              onActiveIndexChanged={()}
+  36 |              tabs={tabs}
+  37 |              activeIndex={activeIndex.value}
+     |         ^
+  38 |            />
+  39 |          </div>
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.parseParenAndDistinguishExpression (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:12315:12)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11891:23)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7477:20)
+      at Object.parseExprSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11584:23)
+      at Object.parseUpdate (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11564:21)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11539:23)
+上午1:15:58 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:16:08 [vite] page reload src/stories/Tabs.story.tsx
+上午1:16:11 [vite] page reload src/stories/Tabs.story.tsx (x2)
+上午1:16:13 [vite] page reload src/stories/Tabs.story.tsx (x3)
+上午1:16:15 [vite] page reload src/stories/Tabs.story.tsx (x4)
+上午1:16:20 [vite] page reload src/stories/Tabs.story.tsx (x5)
+上午1:16:22 [vite] page reload src/stories/Tabs.story.tsx (x6)
+上午1:16:53 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:16:53 [vite] Internal server error: unknown: Unexpected token (91:6)
+
+  89 |       const defaultSlot = context.slots.default!
+  90 |       const show = 
+> 91 |       return <div class={classes.tab}>
+     |       ^
+  92 |         {defaultSlot()}
+  93 |       </div>
+  94 |     }
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  97 |  })
+  98 |  
+  99 |  _Tabs.Tab = Tab
+     |       ^
+  100|  
+  101|  export const Tabs  = _Tabs as typeof _Tabs & {
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:12026:22)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7477:20)
+      at Object.parseExprSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11584:23)
+      at Object.parseUpdate (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11564:21)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11539:23)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9918:20)
+上午1:16:59 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:17:02 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:17:04 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:17:11 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:17:18 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:17:18 [vite] Internal server error: unknown: Unexpected token (93:6)
+
+  91 |       return <div class={classes.tab} style={{
+  92 |         display : 
+> 93 |       }}>
+     |       ^
+  94 |         {defaultSlot()}
+  95 |       </div>
+  96 |     }
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  101|  _Tabs.Tab = Tab
+  102|  
+  103|  export const Tabs  = _Tabs as typeof _Tabs & {
+     |                     ^
+  104|    Tab : typeof Tab
+  105|  }
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:12026:22)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7477:20)
+      at Object.parseExprSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11584:23)
+      at Object.parseUpdate (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11564:21)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11539:23)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9918:20)
+上午1:17:22 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:17:44 [vite] page reload src/components/Page.tsx
+上午1:20:55 [vite] page reload src/stories/Tabs.story.tsx
+上午1:20:55 [vite] Internal server error: unknown: Unterminated JSX contents. (57:10)
+
+  55 |         </Tab>
+  56 |       </Tabs>
+> 57 |     </div>
+     |           ^
+  58 |   )
+  59 | }
+  60 |
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/stories/Tabs.story.tsx
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.jsxReadToken (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7100:20)
+      at Object.getTokenFromCode (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7485:19)
+      at Object.getTokenFromCode (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:10098:18)
+      at Object.nextToken (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:2016:12)
+      at Object.next (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:1922:10)
+      at Object.eat (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:1927:12)
+      at Object.expect (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3554:10)
+上午1:21:01 [vite] page reload src/stories/Tabs.story.tsx
+上午1:21:02 [vite] page reload src/stories/Tabs.story.tsx (x2)
+上午1:22:12 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:22:18 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:22:22 [vite] page reload src/components/tabs/tabs.module.scss (x3)
+上午1:22:27 [vite] page reload src/components/tabs/tabs.module.scss (x4)
+上午1:22:31 [vite] page reload src/components/tabs/tabs.module.scss (x5)
+上午1:22:31 [vite] Internal server error: expected "{".
+   ╷
+11 │   pos
+   │      ^
+   ╵
+  src\components\tabs\tabs.module.scss 11:6  root stylesheet
+  Plugin: vite:css
+  File: D:\dev\huatian\project\packages\huatian-components\src\components\tabs\tabs.module.scss
+  Error: expected "{".
+     ╷
+  11 │   pos
+     │      ^
+     ╵
+    src\components\tabs\tabs.module.scss 11:6  root stylesheet
+      at Object.wrapException (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:6296:17)
+      at SpanScanner.error$3$length$position (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65175:15)
+      at SpanScanner.expectChar$2$name (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65239:12)
+      at SpanScanner.expectChar$1 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65242:19)
+      at ScssParser0.children$1 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:87047:10)
+      at ScssParser0._stylesheet0$_withChildren$1$3 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:92848:39)
+      at ScssParser0._stylesheet0$_withChildren$3 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:92853:19)
+      at ScssParser0._stylesheet0$_styleRule$2 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:90073:20)
+      at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89928:87)
+      at ScssParser0._stylesheet0$_statement$1$root (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89839:166)
+上午1:22:34 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:22:41 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:22:57 [vite] hmr update /src/components/Page.tsx
+上午1:23:20 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:23:31 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:23:48 [vite] page reload src/components/tabs/tabs.module.scss (x3)
+上午1:23:59 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:24:44 [vite] page reload src/stories/Tabs.story.tsx
+上午1:25:02 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:25:20 [vite] page reload src/stories/Tabs.story.tsx
+上午1:25:54 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:26:11 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:26:54 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:26:57 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:27:01 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:27:04 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:27:04 [vite] Internal server error: unknown: Unexpected token (16:4)
+
+  14 |     scrollBehavior : {
+  15 |       type :   
+> 16 |     }
+     |     ^
+  17 |   },
+  18 |   setup(props, context) {
+  19 |
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  16 |      }
+  17 |    },
+  18 |    setup(props, context) {
+     |          ^
+  19 |  
+  20 |      const tabs = reactive<Array<TabMenu>>([])
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:12026:22)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7477:20)
+      at Object.parseExprSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11584:23)
+      at Object.parseUpdate (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11564:21)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11539:23)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9918:20)
+上午1:27:09 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:27:10 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:27:11 [vite] Internal server error: unknown: Type argument list cannot be empty. (15:31)
+
+  13 |     },
+  14 |     scrollBehavior : {
+> 15 |       type : String as PropType<>  
+     |                                ^
+  16 |     }
+  17 |   },
+  18 |   setup(props, context) {
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  15 |        type : String as PropType<>  
+  16 |      }
+  17 |    },
+     |     ^
+  18 |    setup(props, context) {
+  19 |  
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.tsParseTypeArguments (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9199:12)
+      at Object.tsParseTypeReference (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7952:34)
+      at Object.tsParseNonArrayType (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8465:25)
+      at Object.tsParseArrayTypeOrHigher (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8474:21)
+      at Object.tsParseTypeOperatorOrHigher (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8530:114)
+      at Object.tsParseUnionOrIntersectionType (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8539:18)
+      at Object.tsParseIntersectionTypeOrHigher (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8551:17)
+上午1:27:13 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:27:18 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:27:20 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:28:01 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:28:04 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:28:08 [vite] page reload src/components/tabs/Tabs.tsx (x6)
+上午1:28:11 [vite] page reload src/components/tabs/Tabs.tsx (x7)
+上午1:28:13 [vite] page reload src/components/tabs/Tabs.tsx (x8)
+上午1:28:17 [vite] page reload src/components/tabs/Tabs.tsx (x9)
+上午1:28:22 [vite] page reload src/components/tabs/Tabs.tsx (x10)
+上午1:28:25 [vite] page reload src/components/tabs/Tabs.tsx (x11)
+上午1:28:29 [vite] page reload src/components/tabs/Tabs.tsx (x12)
+上午1:28:31 [vite] page reload src/components/tabs/Tabs.tsx (x13)
+上午1:28:34 [vite] page reload src/components/tabs/Tabs.tsx (x14)
+上午1:28:41 [vite] page reload src/components/tabs/Tabs.tsx (x15)
+上午1:28:50 [vite] page reload src/components/tabs/Tabs.tsx (x16)
+上午1:28:51 [vite] Internal server error: unknown: Invalid left-hand side in assignment expression. (33:37)
+
+  31 |           vNode.props.style = {}
+  32 |         }
+> 33 |         vNode.props.style.overflow = props.scrollBehavior === 
+     |                                      ^
+  34 |
+  35 |         vNode.props.index = i
+  36 |         vNode.props.activeIndex = activeIndex.value 
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  33 |          vNode.props.style.overflow = props.scrollBehavior === 
+  34 |  
+  35 |          vNode.props.index = i
+     |       ^
+  36 |          vNode.props.activeIndex = activeIndex.value 
+  37 |          return vNode
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.checkLVal (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11130:16)
+      at Object.checkLVal (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:10030:15)
+      at Object.parseMaybeAssign (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11315:12)
+      at Object.parseMaybeAssign (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9850:20)
+      at Object.parseMaybeAssign (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11317:25)
+      at Object.parseMaybeAssign (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9850:20)
+      at Object.parseExpressionBase (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11226:23)
+上午1:28:57 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:28:57 [vite] Internal server error: unknown: Unexpected token, expected ":" (36:8)
+
+  34 |
+  35 |         vNode.props.index = i
+> 36 |         vNode.props.activeIndex = activeIndex.value 
+     |         ^
+  37 |         return vNode
+  38 |       })
+  39 |       return (
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  34 |  
+  35 |          vNode.props.index = i
+  36 |          vNode.props.activeIndex = activeIndex.value 
+     |                                             ^
+  37 |          return vNode
+  38 |        })
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.expect (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3554:28)
+      at Object.parseConditional (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11344:12)
+      at Object.parseConditional (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9638:20)
+      at Object.parseMaybeConditional (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11336:17)
+      at Object.parseMaybeAssign (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11290:21)
+      at Object.parseMaybeAssign (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9850:20)
+上午1:29:02 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:29:05 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:29:12 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:29:13 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:30:06 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:30:07 [vite] Internal server error: unknown: Unexpected token (93:14)
+
+  91 |     },
+  92 |     style : {
+> 93 |       type : </Obj>
+     |               ^
+  94 |     }
+  95 |   },
+  96 |   setup(props, context){
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  96 |    setup(props, context){
+  97 |      const tabs = inject("tabs") as TabMenu[]
+  98 |      tabs.push({
+     |       ^
+  99 |        render : props.renderMenu
+  100|      })
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.jsxParseIdentifier (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7250:12)
+      at Object.jsxParseNamespacedName (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7260:23)
+      at Object.jsxParseElementName (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7271:21)
+      at Object.jsxParseOpeningElementAt (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7358:22)
+      at Object.jsxParseElementAt (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7391:33)
+      at Object.jsxParseElement (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7465:17)
+上午1:30:10 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:30:10 [vite] Internal server error: unknown: Unexpected token (94:4)
+
+  92 |     style : {
+  93 |       type :  
+> 94 |     }
+     |     ^
+  95 |   },
+  96 |   setup(props, context){
+  97 |     const tabs = inject("tabs") as TabMenu[]
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  96 |    setup(props, context){
+  97 |      const tabs = inject("tabs") as TabMenu[]
+  98 |      tabs.push({
+     |                  ^
+  99 |        render : props.renderMenu
+  100|      })
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:12026:22)
+      at Object.parseExprAtom (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7477:20)
+      at Object.parseExprSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11584:23)
+      at Object.parseUpdate (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11564:21)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11539:23)
+      at Object.parseMaybeUnary (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9918:20)
+上午1:30:28 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:30:31 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:30:37 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:30:39 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:30:43 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:31:06 [vite] page reload src/components/tabs/Tabs.tsx (x6)
+上午1:31:18 [vite] page reload src/components/tabs/Tabs.tsx (x7)
+上午1:31:31 [vite] page reload src/components/tabs/Tabs.tsx (x8)
+上午1:31:48 [vite] page reload src/components/tabs/Tabs.tsx (x9)
+上午1:32:23 [vite] page reload src/components/tabs/Tabs.tsx (x10)
+上午1:32:39 [vite] page reload src/stories/Tabs.story.tsx
+上午1:32:41 [vite] page reload src/stories/Tabs.story.tsx (x2)
+上午1:32:43 [vite] page reload src/stories/Tabs.story.tsx (x3)
+上午1:32:46 [vite] page reload src/stories/Tabs.story.tsx (x4)
+上午1:33:35 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:33:39 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:33:42 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:33:49 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:33:52 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:33:54 [vite] page reload src/components/tabs/Tabs.tsx (x6)
+上午1:33:55 [vite] Internal server error: unknown: Unexpected token, expected ";" (67:26)
+
+  65 |   activeIndex: number
+  66 |   onActiveIndexChanged?: (index: number) => void
+> 67 |   scrollBehavior : "body" : "inner"
+     |                           ^
+  68 | }) => {
+  69 |   return (
+  70 |     <div class={classes.menu}>
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  69 |    return (
+  70 |      <div class={classes.menu}>
+  71 |        {tabs.map((tab, i) => {
+     |        ^
+  72 |          return (
+  73 |            <div
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.expect (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3554:28)
+      at Object.tsParseTypeMemberSemicolon (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8059:12)
+      at Object.tsParsePropertyOrMethodSignature (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8155:12)
+      at Object.tsParseTypeMember (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8193:17)
+      at Object.tsParseList (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7840:19)
+      at Object.tsParseObjectTypeMembers (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8204:26)
+上午1:33:59 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:33:59 [vite] Internal server error: unknown: Unexpected token, expected ";" (67:26)
+
+  65 |   activeIndex: number
+  66 |   onActiveIndexChanged?: (index: number) => void,
+> 67 |   scrollBehavior : "body" : "inner"
+     |                           ^
+  68 | }) => {
+  69 |   return (
+  70 |     <div class={classes.menu}>
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  69 |    return (
+  70 |      <div class={classes.menu}>
+  71 |        {tabs.map((tab, i) => {
+     |        ^
+  72 |          return (
+  73 |            <div
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.expect (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3554:28)
+      at Object.tsParseTypeMemberSemicolon (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8059:12)
+      at Object.tsParsePropertyOrMethodSignature (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8155:12)
+      at Object.tsParseTypeMember (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8193:17)
+      at Object.tsParseList (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7840:19)
+      at Object.tsParseObjectTypeMembers (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8204:26)
+上午1:34:00 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:34:00 [vite] Internal server error: unknown: Unexpected token, expected ";" (67:26)
+
+  65 |   activeIndex: number,
+  66 |   onActiveIndexChanged?: (index: number) => void,
+> 67 |   scrollBehavior : "body" : "inner"
+     |                           ^
+  68 | }) => {
+  69 |   return (
+  70 |     <div class={classes.menu}>
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  69 |    return (
+  70 |      <div class={classes.menu}>
+  71 |        {tabs.map((tab, i) => {
+     |        ^
+  72 |          return (
+  73 |            <div
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.expect (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3554:28)
+      at Object.tsParseTypeMemberSemicolon (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8059:12)
+      at Object.tsParsePropertyOrMethodSignature (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8155:12)
+      at Object.tsParseTypeMember (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8193:17)
+      at Object.tsParseList (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:7840:19)
+      at Object.tsParseObjectTypeMembers (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:8204:26)
+上午1:34:04 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:34:05 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:34:13 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:34:20 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:34:29 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:34:31 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:34:40 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:34:41 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:34:43 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:34:52 [vite] page reload src/components/tabs/Tabs.tsx (x6)
+上午1:35:01 [vite] page reload src/components/tabs/Tabs.tsx (x7)
+上午1:35:08 [vite] page reload src/components/tabs/Tabs.tsx (x8)
+上午1:35:16 [vite] page reload src/components/tabs/Tabs.tsx (x9)
+上午1:35:33 [vite] page reload src/stories/Tabs.story.tsx
+上午1:35:40 [vite] page reload src/stories/Tabs.story.tsx (x2)
+上午1:35:43 [vite] page reload src/stories/Tabs.story.tsx (x3)
+上午1:35:44 [vite] page reload src/stories/Tabs.story.tsx (x4)
+上午1:36:19 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:36:19 [vite] Internal server error: expected "{".
+   ╷
+18 │   dis
+   │      ^
+   ╵
+  src\components\tabs\tabs.module.scss 18:6  root stylesheet
+  Plugin: vite:css
+  File: D:\dev\huatian\project\packages\huatian-components\src\components\tabs\tabs.module.scss
+  Error: expected "{".
+     ╷
+  18 │   dis
+     │      ^
+     ╵
+    src\components\tabs\tabs.module.scss 18:6  root stylesheet
+      at Object.wrapException (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:6296:17)
+      at SpanScanner.error$3$length$position (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65175:15)
+      at SpanScanner.expectChar$2$name (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65239:12)
+      at SpanScanner.expectChar$1 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65242:19)
+      at ScssParser0.children$1 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:87047:10)
+      at ScssParser0._stylesheet0$_withChildren$1$3 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:92848:39)
+      at ScssParser0._stylesheet0$_withChildren$3 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:92853:19)
+      at ScssParser0._stylesheet0$_styleRule$2 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:90073:20)
+      at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89928:87)
+      at ScssParser0._stylesheet0$_statement$1$root (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89839:166)
+上午1:36:26 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:36:36 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:36:36 [vite] Internal server error: Expected expression.
+   ╷
+19 │   flex-direction: ;
+   │                   ^
+   ╵
+  src\components\tabs\tabs.module.scss 19:19  root stylesheet
+  Plugin: vite:css
+  File: D:\dev\huatian\project\packages\huatian-components\src\components\tabs\tabs.module.scss
+  Error: Expected expression.
+     ╷
+  19 │   flex-direction: ;
+     │                   ^
+     ╵
+    src\components\tabs\tabs.module.scss 19:19  root stylesheet
+      at Object.wrapException (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:6296:17)
+      at SpanScanner.error$3$length$position (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65175:15)
+      at SpanScanner.error$1 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65178:19)
+      at ScssParser0._stylesheet0$_singleExpression$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:91436:14)
+      at ScssParser0.expression$3$bracketList$singleEquals$until (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:91035:40)
+      at ScssParser0.expression$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:91309:19)
+      at ScssParser0._stylesheet0$_declarationOrBuffer$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:90008:25)
+      at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89927:35)
+      at ScssParser0._stylesheet0$_statement$1$root (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89839:166)
+      at ScssParser0._stylesheet0$_statement$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89843:19)
+上午1:36:37 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:36:46 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:36:55 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:37:19 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:37:28 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:37:35 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:37:38 [vite] page reload src/components/tabs/Tabs.tsx (x5)
+上午1:37:40 [vite] page reload src/components/tabs/Tabs.tsx (x6)
+上午1:37:44 [vite] page reload src/components/tabs/Tabs.tsx (x7)
+上午1:37:44 [vite] Internal server error: unknown: Unexpected token, expected "]" (38:41)
+
+  36 |         } else {
+  37 |
+> 38 |           vNode.props.style['overflow = 'unset' 
+     |                                          ^
+  39 |         }
+  40 |         vNode.props.style.overflow = props.scrollBehavior === "body" ? 
+  41 |           "unset" : "scroll"
+  Plugin: vite:vue-jsx
+  File: D:/dev/huatian/project/packages/huatian-components/src/components/tabs/Tabs.tsx
+  38 |            vNode.props.style['overflow = 'unset' 
+  39 |          }
+  40 |          vNode.props.style.overflow = props.scrollBehavior === "body" ? 
+     |                     ^
+  41 |            "unset" : "scroll"
+  42 |  
+      at Object._raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:541:17)
+      at Object.raiseWithData (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:534:17)
+      at Object.raise (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:495:17)
+      at Object.unexpected (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3580:16)
+      at Object.expect (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:3554:28)
+      at Object.parseMember (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11659:12)
+      at Object.parseSubscript (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11633:21)
+      at Object.parseSubscript (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:9388:18)
+      at Object.parseSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11601:19)
+      at Object.parseExprSubscripts (D:\dev\huatian\project\packages\huatian-components\node_modules\_@babel_parser@7.16.4@@babel\parser\lib\index.js:11590:17)
+上午1:37:46 [vite] page reload src/components/tabs/Tabs.tsx
+上午1:37:50 [vite] page reload src/components/tabs/Tabs.tsx (x2)
+上午1:37:52 [vite] page reload src/components/tabs/Tabs.tsx (x3)
+上午1:37:54 [vite] page reload src/components/tabs/Tabs.tsx (x4)
+上午1:38:11 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:38:21 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:39:07 [vite] page reload src/components/tabs/tabs.module.scss (x3)
+上午1:39:10 [vite] page reload src/components/tabs/tabs.module.scss (x4)
+上午1:39:48 [vite] page reload src/components/tabs/tabs.module.scss (x5)
+上午1:40:19 [vite] page reload src/components/tabs/tabs.module.scss (x6)
+上午1:40:20 [vite] page reload src/components/tabs/tabs.module.scss (x7)
+上午1:40:29 [vite] page reload src/components/tabs/tabs.module.scss (x8)
+上午1:40:29 [vite] page reload src/components/tabs/tabs.module.scss (x9)
+上午1:40:31 [vite] page reload src/components/tabs/tabs.module.scss (x10)
+上午1:40:32 [vite] Internal server error: Expected expression.
+  ╷
+8 │   box-sizing: ;
+  │               ^
+  ╵
+  src\components\tabs\tabs.module.scss 8:15  root stylesheet
+  Plugin: vite:css
+  File: D:\dev\huatian\project\packages\huatian-components\src\components\tabs\tabs.module.scss
+  Error: Expected expression.
+    ╷
+  8 │   box-sizing: ;
+    │               ^
+    ╵
+    src\components\tabs\tabs.module.scss 8:15  root stylesheet
+      at Object.wrapException (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:6296:17)
+      at SpanScanner.error$3$length$position (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65175:15)
+      at SpanScanner.error$1 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:65178:19)
+      at ScssParser0._stylesheet0$_singleExpression$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:91436:14)
+      at ScssParser0.expression$3$bracketList$singleEquals$until (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:91035:40)
+      at ScssParser0.expression$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:91309:19)
+      at ScssParser0._stylesheet0$_declarationOrBuffer$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:90008:25)
+      at ScssParser0._stylesheet0$_declarationOrStyleRule$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89927:35)
+      at ScssParser0._stylesheet0$_statement$1$root (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89839:166)
+      at ScssParser0._stylesheet0$_statement$0 (D:\dev\huatian\project\packages\huatian-components\node_modules\_sass@1.43.5@sass\sass.dart.js:89843:19)
+上午1:40:33 [vite] page reload src/components/tabs/tabs.module.scss
+上午1:40:39 [vite] page reload src/components/tabs/tabs.module.scss (x2)
+上午1:40:43 [vite] page reload src/components/tabs/tabs.module.scss (x3)

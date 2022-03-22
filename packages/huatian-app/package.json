@@ -1,0 +1,24 @@
+{
+  "name": "@huatian/app",
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@types/mockjs": "^1.0.4",
+    "@vitejs/plugin-vue-jsx": "^1.3.3",
+    "mockjs": "^1.1.0",
+    "sass": "^1.45.2",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}

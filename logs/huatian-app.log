@@ -1,0 +1,15 @@
+
+> huatian-app@0.0.1 dev D:\dev\huatian\project\packages\huatian-app
+> vite
+
+Pre-bundling dependencies:
+  vue
+(this will be run only when your dependencies or config have changed)
+
+  vite v2.6.14 dev server running at:
+
+  > Local: http://localhost:3000/
+  > Network: use `--host` to expose
+
+  ready in 435ms.
+

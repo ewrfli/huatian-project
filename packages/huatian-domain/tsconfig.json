@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "outDir": "es"
+  },
+  "include": ["src/**/*"]
+}
